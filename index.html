@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PUMP EXTENDED — a fictional documentary from the trenches of meme coin culture.">
+  <title>PUMP EXTENDED — Behind The Wallet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="PUMP EXTENDED home"><img src="LOGO.jpg" alt=""><span>PUMP /
+        EXTENDED</span></a>
+    <nav aria-label="Primary navigation"><a href="#cases">Cases</a><a href="#feed">Live feed</a><a
+        href="#archive">Archive</a><a class="nav-cta" href="https://x.com/" target="_blank"
+        rel="noopener noreferrer">Twitter ↗</a></nav>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">MENU</button>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="hero-intro">
+          <div class="eyebrow"><span class="live-dot"></span> Unauthorized documentary / live</div>
+          <img class="hero-logo" src="LOGO.jpg" alt="PUMP EXTENDED logo">
+        </div>
+        <h1 id="hero-title"><span>Pump</span><span>Extended.</span></h1>
+        <div class="hero-bottom">
+          <p>Behind the wallet. Six characters from the meme coin trenches, documented in real time.</p>
+          <div class="hero-actions"><a class="secondary-button" href="https://x.com/" target="_blank"
+              rel="noopener noreferrer">Follow on Twitter <span>↗</span></a><a class="primary-button"
+              href="#cases">Open case files <span>↓</span></a></div>
+        </div>
+      </div>
+      <div class="hero-data" aria-label="Live project statistics"><span><b class="live-clock">04:18:02</b> Local
+          time</span><span><b>06</b> Cases documented</span><span><b>97.4</b> Risk index</span><span><b>?</b> Survival
+          rate</span></div>
+    </section>
+
+    <div class="ticker" aria-label="Market incident ticker">
+      <div class="ticker-track">
+        <span>New pair detected</span><i>+184%</i><span>Caller edited post</span><em>Dev sold</em><span>Chat
+          disabled</span><b>Liquidity moved</b>
+        <span aria-hidden="true">New pair detected</span><i aria-hidden="true">+184%</i><span aria-hidden="true">Caller
+          edited post</span><em aria-hidden="true">Dev sold</em><span aria-hidden="true">Chat disabled</span><b
+          aria-hidden="true">Liquidity moved</b>
+      </div>
+    </div>
+
+    <section class="cases" id="cases" aria-labelledby="cases-title">
+      <header class="section-head">
+        <div><span class="section-no">01 / CASE FILES</span>
+          <h2 id="cases-title">Meet the trenches.</h2>
+        </div>
+        <p>Six wallets. One feed. Zero peace. Select a subject to inspect the evidence.</p>
+      </header>
+      <div class="case-browser">
+        <div class="case-tabs" role="tablist" aria-label="Documented subjects">
+          <button class="case-tab is-active" role="tab" aria-selected="true" data-case="0"><span>001</span>The
+            Trencher</button><button class="case-tab" role="tab" aria-selected="false" data-case="1"><span>002</span>The
+            Rugger</button><button class="case-tab" role="tab" aria-selected="false" data-case="2"><span>003</span>The
+            Caller</button><button class="case-tab" role="tab" aria-selected="false" data-case="3"><span>004</span>The
+            KOL</button><button class="case-tab" role="tab" aria-selected="false" data-case="4"><span>005</span>The
+            Whale</button><button class="case-tab" role="tab" aria-selected="false" data-case="5"><span>006</span>The
+            Round Tripper</button>
+        </div>
+        <article class="case-stage" aria-live="polite">
+          <div class="case-image crop-1" id="case-image" role="img"
+            aria-label="Late night trader watching multiple monitors"><span class="rec-badge"><i class="live-dot"></i>
+              REC</span><span class="image-code" id="image-code">SUBJECT 001 / 04:18:09</span></div>
+          <div class="case-info">
+            <div class="case-label" id="case-label">CASE 001 — ACTIVE</div>
+            <h3 id="case-name">The Trencher</h3>
+            <p class="case-summary" id="case-summary">Lives on new pairs, sleeps with DexScreener open, still convinced
+              the next 100x is one refresh away.</p>
+            <dl id="case-stats">
+              <div>
+                <dt>Balance</dt>
+                <dd>$143.82</dd>
+              </div>
+              <div>
+                <dt>Screen time</dt>
+                <dd>17H</dd>
+              </div>
+              <div>
+                <dt>Last win</dt>
+                <dd>9 days ago</dd>
+              </div>
+            </dl>
+            <div class="case-note"><span>FIELD NOTE</span>
+              <p id="case-note">“Refreshes first. Eats last.”</p>
+            </div>
+            <div class="case-controls"><button type="button" data-case-prev aria-label="Previous subject">←
+                PREV</button><span id="case-progress">01 / 06</span><button type="button" data-case-next
+                aria-label="Next subject">NEXT →</button></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="live-section" id="feed" aria-labelledby="feed-title">
+      <header class="section-head compact">
+        <div><span class="section-no">02 / INCIDENT STREAM</span>
+          <h2 id="feed-title">The feed does not sleep.</h2>
+        </div>
+        <div class="feed-actions"><span class="feed-live"><i class="live-dot"></i> LIVE</span><button type="button"
+            data-feed-toggle>PAUSE FEED</button></div>
+      </header>
+      <div class="terminal">
+        <div class="terminal-bar"><span>PX_MONITOR.LOG</span><span>WALLET TRACE / 0x7E...PUMP</span><span>UNVERIFIED
+            SIGNAL</span></div>
+        <div class="feed-rows" aria-live="polite">
+          <div class="feed-row"><time>03:41:22</time><span>NEW TOKEN DEPLOYED</span><b class="yellow">PAIR CREATED</b>
+          </div>
+          <div class="feed-row"><time>03:42:01</time><span>KOL ENTRY DETECTED</span><b class="green">4 WALLETS</b></div>
+          <div class="feed-row"><time>03:42:17</time><span>UNREALIZED PNL</span><b class="green">+184%</b></div>
+          <div class="feed-row danger"><time>03:43:09</time><span>DEV SOLD</span><b class="red">12.4%</b></div>
+          <div class="feed-row danger"><time>03:43:10</time><span>CHAT DISABLED</span><b class="red">MUTED</b></div>
+          <div class="feed-row"><time>03:44:32</time><span>CALLER POST UPDATED</span><b>TYPO FIX</b></div>
+          <div class="feed-row"><time>03:45:08</time><span>WHALE SPLIT ORDER</span><b class="green">$2.1M</b></div>
+          <div class="feed-row"><time>03:45:19</time><span>HOLDER COUNT</span><b class="yellow">TEMPORARY</b></div>
+          <div class="feed-row danger"><time>03:46:44</time><span>LIQUIDITY MOVED</span><b class="red">UNKNOWN</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hierarchy" aria-labelledby="chain-title">
+      <header class="section-head">
+        <div><span class="section-no">03 / SOCIAL HIERARCHY</span>
+          <h2 id="chain-title">The food chain.</h2>
+        </div>
+        <p>Everybody enters somewhere. Everybody insists they are one level higher.</p>
+      </header>
+      <ol class="chain">
+        <li><span>01</span><strong>Trencher</strong>
+          <p>Refreshes first. Eats last.</p>
+        </li>
+        <li><span>02</span><strong>Call follower</strong>
+          <p>Buys confidence, sells fear.</p>
+        </li>
+        <li><span>03</span><strong>Caller</strong>
+          <p>Posts candle, edits history.</p>
+        </li>
+        <li><span>04</span><strong>KOL</strong>
+          <p>Sponsored by timing.</p>
+        </li>
+        <li><span>05</span><strong>Whale</strong>
+          <p>The chart asks permission.</p>
+        </li>
+        <li><span>06</span><strong>Dev</strong>
+          <p>Visionary until block 43.</p>
+        </li>
+        <li><span>07</span><strong>“Advisor”</strong>
+          <p>Never in the group chat.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="transformation" aria-labelledby="transform-title">
+      <header class="section-head compact">
+        <div><span class="section-no">04 / TRANSFORMATION ARCHIVE</span>
+          <h2 id="transform-title">Before / after.</h2>
+        </div>
+        <div class="transform-switch" role="group" aria-label="Choose comparison"><button class="is-active"
+            type="button" data-transform="trader">Trader</button><button type="button"
+            data-transform="caller">Caller</button></div>
+      </header>
+      <div class="compare-card">
+        <div class="compare-side before"><span>BEFORE PUMP</span>
+          <h3 id="before-heading">A functioning person.</h3>
+          <ul id="before-list">
+            <li>Sleeping normally</li>
+            <li>$3,200 savings</li>
+            <li>Friends</li>
+          </ul>
+        </div>
+        <div class="compare-divider"><span>→</span></div>
+        <div class="compare-side after"><span>AFTER PUMP</span>
+          <h3 id="after-heading">Community manager.</h3>
+          <ul id="after-list">
+            <li>4 monitors</li>
+            <li>$184 wallet balance</li>
+            <li>“One more play”</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="archive" id="archive" aria-labelledby="archive-title">
+      <header class="section-head">
+        <div><span class="section-no">05 / SCREENSHOT EVIDENCE</span>
+          <h2 id="archive-title">The PnL wall.</h2>
+        </div>
+        <p>Wins are posted. Losses are educational. Entries are always sent to VIPs first.</p>
+      </header>
+      <div class="pnl-wall">
+        <div class="pnl-card gain hero-pnl"><span>UNREALIZED</span><strong>+14,284%</strong><small>ATH
+            SCREENSHOT</small></div>
+        <div class="pnl-card loss"><span>POSITION 044</span><strong>-99.7%</strong><small>STILL HOLDING</small></div>
+        <div class="pnl-card gain"><span>PNL</span><strong>+$480K</strong><small>ENTRY NOT SHOWN</small></div>
+        <div class="pnl-card loss stamp"><strong>RUGGED</strong></div>
+        <div class="pnl-card warning"><strong>SOLD TOO EARLY</strong></div>
+        <div class="pnl-card loss"><strong>-$82K</strong><small>ROUND TRIPPED</small></div>
+      </div>
+    </section>
+
+    <section class="manifesto" aria-label="Project statement">
+      <p>Every wallet has a story.</p>
+      <p>Most of them end badly.</p>
+    </section>
+
+    <section class="contact-sheet" aria-labelledby="stills-title">
+      <header class="section-head compact">
+        <div><span class="section-no">06 / DOCUMENTARY STILLS</span>
+          <h2 id="stills-title">Captured at 04:18.</h2>
+        </div>
+      </header>
+      <figure><img src="assets/documentary-contact-sheet.png"
+          alt="Six fictional documentary stills of crypto trading archetypes">
+        <figcaption><span>CASE ARCHIVE / LOCATION UNDISCLOSED</span><span>STATUS: STILL TRADING</span></figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><img src="LOGO.jpg" alt=""><span>PUMP<br>EXTENDED</span></div>
+    <p>The trenches never close.</p>
+    <nav aria-label="Footer links"><a href="https://x.com/" target="_blank" rel="noopener noreferrer">Twitter ↗</a></nav>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
